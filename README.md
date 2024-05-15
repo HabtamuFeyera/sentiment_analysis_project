@@ -6,28 +6,27 @@ This project is a dynamic web application for sentiment analysis using a fine-tu
 
 sentiment_analysis_project/
 ├── app/
-│ ├── init.py
-│ ├── model.py
-│ ├── routes.py
-│ └── static/
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│ └── scripts.js
+│   ├── __init__.py
+│   ├── model.py
+│   ├── routes.py
+│   └── static/
+│       ├── css/
+│       │   └── styles.css
+│       └── js/
+│           └── scripts.js
 ├── templates/
-│ └── index.html
+│   └── index.html
 ├── data/
-│ └── IMDb_Reviews.csv
+│   └── IMDb_Reviews.csv
 ├── models/
-│ ├── bert_model.bin
-│ └── tokenizer/
+│   ├── bert_model.bin
+│   └── tokenizer/
 ├── notebooks/
-│ └── data_preprocessing.ipynb
+│   └── data_preprocessing.ipynb
 ├── Procfile
 ├── requirements.txt
 ├── run.py
 └── README.md
-
 
 ## Setup
 
