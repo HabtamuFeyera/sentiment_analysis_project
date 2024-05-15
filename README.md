@@ -4,29 +4,37 @@ This project is a dynamic web application for sentiment analysis using a fine-tu
 
 ## Project Structure
 
-sentiment_analysis_project/
-├── app/
-│   ├── __init__.py
-│   ├── model.py
-│   ├── routes.py
-│   └── static/
-│       ├── css/
-│       │   └── styles.css
-│       └── js/
-│           └── scripts.js
-├── templates/
-│   └── index.html
-├── data/
-│   └── IMDb_Reviews.csv
-├── models/
-│   ├── bert_model.bin
-│   └── tokenizer/
-├── notebooks/
-│   └── data_preprocessing.ipynb
-├── Procfile
-├── requirements.txt
-├── run.py
-└── README.md
+1. **app/**: Contains the application logic and functionality.
+   - **__init__.py**: Initializes the Flask application.
+   - **model.py**: Defines the sentiment analysis model class.
+   - **routes.py**: Defines the routes for the web application.
+   - **static/**: Directory for static files such as CSS and JavaScript.
+      - **css/**: Contains CSS stylesheets.
+         - **styles.css**: Styles for the web application.
+      - **js/**: Contains JavaScript files.
+         - **scripts.js**: Scripts for client-side interaction.
+   
+2. **templates/**: Contains HTML templates for rendering web pages.
+   - **index.html**: Main HTML template for the web application.
+
+3. **data/**: Directory for storing dataset files.
+   - **IMDb_Reviews.csv**: Example dataset for sentiment analysis.
+
+4. **models/**: Directory for storing trained machine learning models.
+   - **bert_model.bin**: Pre-trained BERT model for sentiment analysis.
+   - **tokenizer/**: Directory for tokenizer files.
+
+5. **notebooks/**: Contains Jupyter notebooks for data preprocessing and analysis.
+   - **data_preprocessing.ipynb**: Notebook for preprocessing the dataset.
+
+6. **Procfile**: Specifies the commands to run the web application on Heroku.
+
+7. **requirements.txt**: Lists the Python dependencies required for the project.
+
+8. **run.py**: Python script to run the Flask web application.
+
+9. **README.md**: Markdown file containing project information, setup instructions, and documentation.
+
 
 ## Setup
 
